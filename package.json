@@ -1,0 +1,22 @@
+{
+  "name": "chrispilcher.us",
+  "version": "0.1.0",
+  "description": "The source code for my personal website, http://chrispilcher.us",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b4ux1t3/chrispilcher.us.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Chris P.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b4ux1t3/chrispilcher.us/issues"
+  },
+  "homepage": "https://github.com/b4ux1t3/chrispilcher.us#readme"
+}
