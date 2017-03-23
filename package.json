@@ -18,5 +18,27 @@
   "bugs": {
     "url": "https://github.com/b4ux1t3/chrispilcher.us/issues"
   },
-  "homepage": "https://github.com/b4ux1t3/chrispilcher.us#readme"
+  "homepage": "https://github.com/b4ux1t3/chrispilcher.us#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-react-jsx": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.3.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
 }
