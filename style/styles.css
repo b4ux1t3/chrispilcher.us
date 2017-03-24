@@ -1,0 +1,180 @@
+.container-fluid{
+	height: 100vh;
+	padding: 0;
+}
+
+.navbar-nav{
+	float: right;
+}
+
+.navbar-nav li{
+	padding-right: 15px;
+}
+
+.title {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	background: linear-gradient(200deg, transparent,black), url(../images/337H-min.jpg);
+	background-position: center center;
+	background-size: cover;
+    background-size: 100% 100%;
+}
+
+.title_box {
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	outline: 3px white solid;
+}
+
+/**Styling for the About Me content. Class .about_and_edu affects both the About Me
+Education sections**/
+
+.about_and_edu {
+	background-color: gray;
+	color: white;
+	min-height: 100vh;
+	height: auto;
+}
+
+.about_me_section {
+	padding-top: 5%;
+	width: 55%;
+	margin: 0 auto;
+
+}
+
+.about_me_header {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.about_me_header h1{
+	text-align: center;
+}
+
+.biography {
+	line-height: 1.8em;
+}
+
+/**styling for education section**/
+
+.education_section {
+	padding-top: 20px;
+	width: 55%;
+	margin: 0 auto;
+}
+
+.education_header {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 20px;
+}
+
+.education_history{
+	text-align: left;
+}
+
+.education_history h3 {
+	text-align: left;
+}
+
+.education_history ul{
+	display: inline-block;
+	text-align: left;
+	list-style-type: none; 
+	padding-left: 0px;
+}
+
+.education_history p{
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.extracurriculars{
+	padding-top: 20px;
+	text-align: left;
+}
+
+.extracurriculars ul{
+	padding-left: 0px;
+}
+
+.extracurriculars li{
+	display: inline;
+	padding-right: 10px;
+	font-size: 1.5em;
+	text-decoration: underline;
+}
+
+.extracurriculars ul a {
+ 	color: white;
+}
+
+
+/**Portfolio, project examples**/
+/* Chris added these */
+.portfolio_header{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.portfolio{
+	background-color: white;
+	color: gray;
+	min-height: 100vh;
+	height: auto;
+}
+
+.portfolio_header{
+	text-align: center;
+}
+.technologies{
+	padding-top: 5%;
+	width: 55%;
+	margin: 0 auto;
+}
+.technologies p{
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.technologies ul{
+	display: inline-block;
+	text-align: left;
+	list-style-type: none; 
+	padding-left: 0px;
+}
+
+#portfolio{
+	background-color: white;
+	color: gray;
+}
+/* End of Chris adding stuff */
+@media (max-width: 600px){
+	
+	.navbar-nav li{
+		padding-right: 0px;
+	}
+
+
+	.about_me_section{
+		width: 90%;
+	}
+	.education_section{
+		width: 90%
+	}
+}
+
+ul{
+	list-style-type: none;
+}
+
+.language-header{
+	border-bottom: 1px solid #444444;
+}

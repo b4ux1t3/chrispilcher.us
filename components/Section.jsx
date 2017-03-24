@@ -7,7 +7,9 @@ export default class Section extends React.Component{
     }
     render(){
         return(
-            <div className= {"container-fluid " + this.props.sectionName} />
+            <div className= {"container-fluid " + this.props.sectionName}>
+                {this.props.content}
+            </div>
         );
     }
 }
