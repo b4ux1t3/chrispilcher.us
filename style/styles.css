@@ -178,3 +178,24 @@ ul{
 .language-header{
 	border-bottom: 1px solid #444444;
 }
+
+.project-link{
+	border-left: 1px solid #444444;
+	border-right: 1px solid #444444;
+	padding: 5px;
+	box-sizing: initial;
+	width: fit-content;
+}
+
+.project-picture{
+	display: inline-block;
+}
+
+.project-description{
+	display: inline-block;
+}
+
+#picturebox{
+	max-width: 500px;
+	max-height: 500px;
+}
